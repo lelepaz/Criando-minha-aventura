@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <title>Loja de maquiagem</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0-loja.jpeg" alt="Campeonato de fifa">
+            <p>
+                Em um dia normal você está fazendo compras no shopping, quando entre em uma loja de maquiagens, onde
+                após alguns minutos olhando você percebe algo estranho no fundo da loja, uma porta escondida na parede.
+            </p>
+            <button class="btn-proximo" data-proximo="1">Ignorar e voltar às compras.</button>
+            ou
+            <button class="btn-proximo" data-proximo="2">Ir dar uma olhada.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>
+                Você decide ignorar a porta e continua suas compras normalmente.
+            </p>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você chega mais perto e percebe que a porta está meio aberta, então você entra e logo em seguida dá de
+                cara com um corredor cheio de luzes, ao final do corredor você se depara com dois caminhos, um para a
+                direita e outro para a esquerda.</p>
+            <button class="btn-proximo" data-proximo="3">Direita.</button>
+            ou
+            <button class="btn-proximo" data-proximo="4">Esquerda.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-passo3-shopping.jpeg" alt="Corredor principal do shopping.">
+            <p>Você vira para a direita e andando um pouco uma porta vermelha é vista no final do caminho, ao chegar
+                mais perto e abri-la você chega ao corredor principal do shopping. Achando tudo aquilo meio estranho
+                você decide só continuar suas compras normalmente.</p>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você vira para a esquerda e se depara com mais um pequeno corredor, mas dessa vez era um espaço escuro
+                com apenas uma porta que emitia uma luz forte ao final do corredor.</p>
+            <button class="btn-proximo" data-proximo="5">Entrar na porta</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p> Você entra pela porta de onde está saindo aquela luz e se depara com outra loja de maquiagem, mas tinha
+                algo estranho, já que não havia ninguém nessa loja nova, estava vazia como se ninguém soubesse que
+                aquele lugar existisse, porém ainda havia um monte de maquiagens nas plateleiras.</p>
+            <button class="btn-proximo" data-proximo="6">Continuar explorando a loja.</button>
+            ou
+            <button class="btn-proximo" data-proximo="7">Desistir de explorar e voltar às compras.</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo6-maquiagens.jpeg" alt="Maquiagens.">
+            <p>Investigando um pouco mais essa loja esquisita você se depara com um cartaz que diz:"Parabéns! Você achou
+                nossa loja secreta! Agora você pode pegar o que quiser de graça!', vendo aquele cartaz você fica animada
+                e começa a pegar um monte de maquiagens, esmaltes e produtos de beleza. E depois de quase esvaziar a
+                loja você volta para casa com suas compras super feliz.</p>
+        </div>
+        <div class="passo" id="passo-7">
+            <p> Você acha tudo aquilo muito estranho e com medo você decide sair daquela loja estranha o mais rápido
+                possível.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
